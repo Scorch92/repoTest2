@@ -2,16 +2,16 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		
+		factoR(5);
 	}
 	
-	public void factoI(int n)
+	public static void factoI(int n)
 	{
 		
 	}
 	
-	public void factoR(int n)
+	public static void factoR(int n)
 	{
-		
+		System.out.println(Math.pow(2, n));
 	}
 }
