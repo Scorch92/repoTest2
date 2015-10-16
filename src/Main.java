@@ -3,6 +3,7 @@ public class Main
 	public static void main(String[] args)
 	{
 		factoI(10);
+		factoR(5);
 	}
 	
 	public static void factoI(int n)
@@ -25,8 +26,8 @@ public class Main
 		System.out.println(nbr);
 	}
 	
-	public void factoR(int n)
+	public static void factoR(int n)
 	{
-		
+		System.out.println(Math.pow(2, n));
 	}
 }
